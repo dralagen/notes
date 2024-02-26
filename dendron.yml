@@ -106,5 +106,4 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: search
-    assetsPrefix: /
     siteUrl: https://notes.dralagen.fr
