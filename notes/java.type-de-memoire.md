@@ -4,9 +4,9 @@ title: Type De Mémoire en Java
 desc: ''
 updated: 1708520642002
 created: 1675688400000
-isDir: false
 tags:
   - java
+isDir: false
 ---
 
 # heap memory

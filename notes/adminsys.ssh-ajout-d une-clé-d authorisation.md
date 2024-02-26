@@ -1,10 +1,12 @@
 ---
 id: q027beyrfyuk77lwwu078q7
-title: Ssh   Ajout D Une Clé D Authorisation
+title: Ssh Ajout D Une Clé D Authorisation
 desc: ''
 updated: 1708520863648
 created: 1708520437477
 isDir: false
+tags:
+    - adminsys
 ---
 
 # Installation via ligne de commande
@@ -14,10 +16,7 @@ isDir: false
 ssh-copy-id -i ~/.ssh/id_rsa.pub YOUR_USER_NAME@IP_ADDRESS_OF_THE_SERVER
 ```
 
-
-
 --- 
-Tags: #ssh #adminsys 
 
 Source:
 - https://linuxhandbook.com/add-ssh-public-key-to-server/

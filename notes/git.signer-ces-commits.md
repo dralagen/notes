@@ -3,10 +3,12 @@ id: 40g9w6l00rhquijjy2kod6y
 title: Signer Ces Commits
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1674565200000
 isDir: false
+tags:
+    - git
+    - gpg
 ---
-2023-01-24
 
 prérequis : 
 - Avoir l'ID de la clé gpg [[vérification-des-clés-gpg-existantes]]
@@ -24,7 +26,6 @@ git config --global commit.gpgsign true
 
 
 --- 
-Tags: #git #gpg 
 
 Source:
 - https://git-scm.com/book/fr/v2/Utilitaires-Git-Signer-votre-travail

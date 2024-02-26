@@ -5,6 +5,9 @@ desc: ''
 updated: 1708520437477
 created: 1708520437477
 isDir: false
+tags:
+  - adminsys
+  - linux
 ---
 Affichage des groupes de volumes
 
@@ -40,6 +43,3 @@ affiche les groupes volumes en compact
 
 lien:
 - [[adminsys.ajout-d-espace-disk]]
-
-
-#linux #adminsys #disk #lvm

@@ -3,10 +3,12 @@ id: x4bafmpsd6bcj4a0e2z9s42
 title: Génération D Un Nouvelle Clé Gpg
 desc: ''
 updated: 1708520437477
-created: 1708520437478
+created: 1674565200000
 isDir: false
+tags:
+    - git
+    - gpg
 ---
-2023-01-24
 
 Si vous utilisez la version 2.1.17 ou une version ultérieure
 ```shell
@@ -19,8 +21,7 @@ gpg --default-new-key-algo rsa4096 --gen-key
 ```
 
 
---- 
-Tags: #git #gpg 
+---
 
 Related:
 - [[gpg.vérification-des-clés-gpg-existantes]]

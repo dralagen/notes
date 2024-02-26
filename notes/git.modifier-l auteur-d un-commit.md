@@ -3,10 +3,11 @@ id: bkxga1oq004fxpq0ac1bp2z
 title: Modifier L Auteur D Un Commit
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1674565200000
 isDir: false
+tags:
+    - git
 ---
-2023-01-24
 
 # Remplacer un user un autre utilisateur
 
@@ -44,8 +45,7 @@ git rebase -r <some commit before all of your bad commits> \
 
 `-r root` pour l'ensemble de l'historique 
 
---- 
-Tags: #git
+---
 
 Source:
 - [Stackoverflow - rebase with me](https://stackoverflow.com/a/1320317)

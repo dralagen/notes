@@ -3,10 +3,12 @@ id: lwdjj5vhknopsrlhgnu1ea1
 title: Firewall with Iptables
 desc: ''
 updated: 1708520437477
-created: 1708520437477
+created: 1691236800000
 isDir: false
+tags:
+    - adminsys
+    - security
 ---
-2023-08-05
 
 # autoriser le trafic local 
 
@@ -45,7 +47,6 @@ iptables-save -c
 
 
 --- 
-Tags: #adminsys #security 
 
 Source:
 - https://help.ovhcloud.com/csm/fr-dedicated-servers-firewall-iptables?id=kb_article_view&sysparm_article=KB0043442

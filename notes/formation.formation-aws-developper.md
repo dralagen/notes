@@ -45,6 +45,3 @@ Analyse économique du code Amazon Code Guru (Java ou Python)
 AWS SAM : Template la création des applications.
 
 API, lambda, …
-
----
-Tags: #aws #formation

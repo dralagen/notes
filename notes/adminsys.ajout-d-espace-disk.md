@@ -5,6 +5,9 @@ desc: ''
 updated: 1708520819027
 created: 1708520437477
 isDir: false
+tags:
+    - linux
+    - adminsys
 ---
 
 Ajouter 10 Go sur la partition 
@@ -15,5 +18,3 @@ Appliquer le resize sur la parition
 
 lien :
 - [[adminsys.information-disk-lvm]] : récupération des informations de la place disponnibe
-
-#linux #lvm #adminsys #disk 

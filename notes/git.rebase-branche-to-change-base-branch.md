@@ -1,9 +1,11 @@
 ---
 id: c6lx3qxvj6b2xxwz49xgo5s
-title: Git   Rebase Branche to Change Base Branch
+title: Rebase Branche to Change Base Branch
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1678453200000
+tags:
+  - git
 isDir: false
 ---
 
@@ -21,8 +23,7 @@ git rebase --onto $targetBranch $fromBranch $featureBranch
 - `$fromBranch` : la branche de base des commits à rejouer, les commits de cette branche seront exclus
 - `$featureBranch` : la branche contenant les commits qui vont être rejoués
 
---- 
-Tags: #git 
+---
 
 Source:
 - https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing

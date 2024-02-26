@@ -4,13 +4,13 @@ title: Garbage Collector Java
 desc: ''
 updated: 1708520628973
 created: 1677416400000
-isDir: false
 tags:
   - java
+isDir: false
 ---
 
 Le Garbage collector permet de nettoyer une partie de la mémoire de l'application. Au niveau de la heap.
-[[java.type-de-mémoire]] 
+[[java.type-de-memoire]] 
 
 # Mémoire Heap
 La heap est divisée en deux zones :

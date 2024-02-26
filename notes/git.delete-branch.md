@@ -1,10 +1,12 @@
 ---
 id: shrmvymny7ds4bho4az7xwh
-title: Git   Delete Branch
+title: Delete Branch
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1675342800000
 isDir: false
+tags:
+    - git
 ---
 2023-02-02
 
@@ -21,7 +23,6 @@ git push origin --delete maBranche
 Accepte d'avoir plusieurs branches en une seule commande
 
 --- 
-Tags: #git 
 
 Source:
 - https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
