@@ -2,7 +2,7 @@
 id: 6vn0qk5obxdxtns8nlr0z29
 title: Formation Aws Developper
 desc: ''
-updated: 1708945130194
+updated: 1708955850816
 created: 1708520437477
 isDir: false
 ---
@@ -15,6 +15,10 @@ isDir: false
 1. Conditionnez-vous aux réelles questions de l’examen https://www.examtopics.com/exams/amazon/aws-certified-developer-associate/
 
 ## Resources
+
+![wich aws conatiner service should I user ?](assets/images/aws-whichContainerServiceShouldIuse.png)
+
+![datastoreChoices](assets/images/aws-datastoreChoices.png)
 
 Développeurs multi-platforms Cloud (équivalences)
 
