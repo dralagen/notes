@@ -1,0 +1,18 @@
+{
+  "name": "fr.dralagen.notes",
+  "version": "1.0.0",
+  "description": "personal notes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dralagen/notes.git"
+  },
+  "author": "Dralagen",
+  "bugs": {
+    "url": "https://github.com/dralagen/notes/issues"
+  },
+  "homepage": "https://github.com/dralagen/notes#readme",
+  "dependencies": {
+    "@dendronhq/dendron-cli": "^0.106.0"
+  }
+}
