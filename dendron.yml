@@ -92,12 +92,9 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dralagen's personal notes
+        title: Dralagen's notes
         description: Personal Knowledge Space
         author: dralagen
-        image:
-          url: https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png
-          alt: Dendron
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
