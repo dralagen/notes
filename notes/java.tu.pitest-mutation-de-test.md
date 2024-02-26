@@ -1,12 +1,16 @@
 ---
 id: dirk13nk086inzvzfumbebl
-title: Pitest   Mutation De Test
+title: Pitest Mutation De Test
 desc: ''
-updated: 1708520437477
-created: 1708520437477
+updated: 1708961774118
+created: 1675774800000
 isDir: false
+tags:
+	- programmation
+ 	- test
+	- TU
+	- java
 ---
-2023-02-07
 
 Mutation de test permet de valider que les tests sont efficace.
 Mais l'execution est plus long
@@ -46,7 +50,7 @@ Mise en place de mutation de test avec pitest sur maven
 ```
 
 --- 
-Tags: #programmation #test #TU #java 
+
 
 Source:
 - https://pitest.org/quickstart/maven/

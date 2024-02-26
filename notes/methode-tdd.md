@@ -1,23 +1,25 @@
 ---
-id: dtm3a7gqagc9u8xogoucsnp
-title: Méthode Tdd
+id: 4silde14693solh7qhsrbwg
+title: Methode Tdd
 desc: ''
-updated: 1708520437476
-created: 1708520437476
+updated: 1708962424285
+created: 1675688400000
+tags:
+  - programmation
+  - TU
 isDir: false
 ---
-2023-02-06
 
 3 étapes :
 - RED : écriture du test qui fail
 - Green : écrire le code minimal pour faire passer le test
 - Refacto : 
-	- compréhensible
-	- optimisé
-	- flexible
-	- maintenable
-	- réutilisable
-	- évolutif
+    - compréhensible
+    - optimisé
+    - flexible
+    - maintenable
+    - réutilisable
+    - évolutif
 
 ## Les 4 lois TDD :
 
@@ -27,9 +29,7 @@ isDir: false
 4.  Il faut remanier le code de production.
 
 
-
---- 
-Tags: #programmation #TU 
+---
 
 Source:
 - https://www.baeldung.com/java-test-driven-list

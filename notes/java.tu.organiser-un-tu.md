@@ -2,8 +2,12 @@
 id: d3zwzuny53kedb57sqhgc5r
 title: Organiser Un Tu
 desc: ''
-updated: 1708520437476
+updated: 1708962560859
 created: 1708520437476
+tags:
+  - programmation
+  - java
+  - TU
 isDir: false
 ---
 2023-02-07
@@ -18,8 +22,7 @@ ou
 -   Then
 plus proche des critères d'acceptation
 
---- 
-Tags: #programmation #java #TU
+---
 
 Source:
 - 

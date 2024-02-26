@@ -2,9 +2,13 @@
 id: bkb12ngveca6qyetiwtbpxq
 title: Execute Heapdump
 desc: ''
-updated: 1708520437479
-created: 1708520437479
+updated: 1708959761681
+created: 1677070800000
 isDir: false
+tags:
+    - jcmd 
+    - jmap 
+    - memory-leak
 ---
 Prérequis : exécuter un garbage collector pour vider la mémoire afin de mieux détecter un memory leak [[programation.execute-garbage-collector]]
 
@@ -16,4 +20,3 @@ Or
 
 `jcmd <PID> GC.heap_dump -all dump`
 
-#jcmd #jmap #memory-leak

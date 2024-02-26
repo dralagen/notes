@@ -3,10 +3,11 @@ id: cgl4ub0a4klbpoh6y1jdtd7
 title: Garbage Collector Java
 desc: ''
 updated: 1708520628973
-created: 1708520437475
+created: 1677416400000
 isDir: false
+tags:
+  - java
 ---
-2023-02-26
 
 Le Garbage collector permet de nettoyer une partie de la mémoire de l'application. Au niveau de la heap.
 [[java.type-de-mémoire]] 
@@ -39,8 +40,7 @@ Les performances du GC depends de beaucoup de facteur comme la taille de l'appli
 
 Des tests de performances sont a effectué pour attribuer la meilleure stratégie de GC.
 
---- 
-Tags: #java 
+---
 
 Source:
 - https://kotlin-java.fr/garbage-collector-jvm/

@@ -1,12 +1,14 @@
 ---
 id: zri37q2nxvpiejwn8h45c72
-title: K3s   Install
+title: K3s Install
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1691236800000
+tags:
+  - k8s
+  - kubernetes
 isDir: false
 ---
-2023-08-05
 
 ## SERVER
 
@@ -40,10 +42,7 @@ Sur le future node :
 curl -sfL https://get.k3s.io | K3S_TOKEN="SECRET" sh -s - agent --server https://IP_SERVER_MASTER:6443
 ```
 
-
-
 --- 
-Tags: #k8s #kubernetes 
 
 Source:
 - https://docs.k3s.io/quick-start

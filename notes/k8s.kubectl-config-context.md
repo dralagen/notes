@@ -3,10 +3,12 @@ id: 63rf94fwo6w3hgiwu40zkyb
 title: Kubectl Config Context
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1691582400000
 isDir: false
+tags:
+  - k8s
+  - kubernetes
 ---
-2023-08-09
 
 # changement de context 
 ```Shell
@@ -35,8 +37,7 @@ kubectl config --kubeconfig=config-demo set-context dev-storage --cluster=develo
 - To remove a context, you can run `kubectl --kubeconfig=config-demo config unset contexts.<name>`
 
 
---- 
-Tags: #k8s #kubernetes 
+---
 
 Source:
 - https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/

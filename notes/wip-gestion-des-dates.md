@@ -2,16 +2,17 @@
 id: gndlraosis645zje2i41qgg
 title: Wip Gestion Des Dates
 desc: ''
-updated: 1708520437476
+updated: 1708958994873
 created: 1708520437476
 isDir: false
+publish: false
+tags:
+    - programmation
 ---
-2023-02-06
 
 
 
 --- 
-Tags: #programmation
 
 Source:
 - [Conf DEVOXX 2019](https://www.youtube.com/watch?v=_ApiF_7MzM0), 

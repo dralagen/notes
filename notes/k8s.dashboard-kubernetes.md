@@ -3,10 +3,12 @@ id: p8mp5f9s96r05s076ksw0hz
 title: Dashboard Kubernetes
 desc: ''
 updated: 1708520437478
-created: 1708520437478
+created: 1691236800000
 isDir: false
+tags:
+  - k8s
+  - kubernetes
 ---
-2023-08-05
 
 # Configuration du service Account
 
@@ -58,8 +60,7 @@ kubectl proxy
 
 Kubectl will make Dashboard available at [http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/).
 
---- 
-Tags: #k8s #kubernetes 
+---
 
 Source:
 - https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/

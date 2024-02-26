@@ -1,12 +1,14 @@
 ---
 id: t936b3n4kmuxeg7fc5j9le1
-title: Longhorn   Installation
+title: Longhorn Installation
 desc: ''
-updated: 1708520437478
-created: 1708520437478
+updated: 1708963615126
+created: 1691236800000
+tags:
+  - k8s
+  - kubernetes
 isDir: false
 ---
-2023-08-05
 
 # Pré-requis
 
@@ -14,9 +16,7 @@ isDir: false
 apt-get install open-iscsi nfs-common
 ```
 
-
 --- 
-Tags: 
 
 Source:
 - https://longhorn.io/docs/1.4.3/deploy/install/#installing-open-iscsi

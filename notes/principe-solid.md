@@ -2,11 +2,13 @@
 id: s9qhm7g0swutzx7v232fv8d
 title: Principe Solid
 desc: ''
-updated: 1708520437476
-created: 1708520437476
+updated: 1708961676226
+created: 1675774800000
 isDir: false
+tags:
+    - programmation
+    - method 
 ---
-2023-02-07
 
 # Single responsibility principle
 Faire une chose et la faire bien 
@@ -32,8 +34,7 @@ Définition d'interface cohérent de méthode pour ne pas a avoir à implément�
 Module de haut niveau ne doit pas dépendre des modules de bas niveau
 
 
---- 
-Tags: #programmation #method
+---
 
 Source:
 - https://filippobuletto.github.io/solid-java

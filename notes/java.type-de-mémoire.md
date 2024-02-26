@@ -3,10 +3,11 @@ id: idm1kh4egumycpbj3b7v73p
 title: Type De Mémoire en Java
 desc: ''
 updated: 1708520642002
-created: 1708520437475
+created: 1675688400000
 isDir: false
+tags:
+  - java
 ---
-2023-02-06
 
 # heap memory
 

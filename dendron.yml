@@ -25,7 +25,7 @@ workspace:
         -
             fsPath: .
             selfContained: true
-            name: dendron-notes
+            name: dralagen-notes
     journal:
         dailyDomain: daily
         name: journal
@@ -92,13 +92,18 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron
+        title: Dralagen's personal notes
         description: Personal Knowledge Space
+        author: dralagen
+        image:
+          url: https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png
+          alt: Dendron
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
+        editRepository: 'https://github.com/dralagen/notes'
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
