@@ -106,5 +106,5 @@ publishing:
     enableTaskNotes: true
     enablePrettyLinks: true
     searchMode: search
-    assetsPrefix: /notes
-    siteUrl: https://dralagen.github.io
+    assetsPrefix: /
+    siteUrl: https://notes.dralagen.fr
