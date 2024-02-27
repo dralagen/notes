@@ -2,12 +2,11 @@
 id: s9qhm7g0swutzx7v232fv8d
 title: Principe Solid
 desc: ''
-updated: 1708961676226
+updated: 1709028742148
 created: 1675774800000
-isDir: false
 tags:
-    - programmation
-    - method 
+  - programation
+isDir: false
 ---
 
 # Single responsibility principle

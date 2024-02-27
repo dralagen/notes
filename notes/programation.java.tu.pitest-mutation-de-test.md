@@ -4,12 +4,12 @@ title: Pitest Mutation De Test
 desc: ''
 updated: 1708961774118
 created: 1675774800000
-isDir: false
 tags:
-  - programmation
+  - programation
   - test
   - TU
   - java
+isDir: false
 ---
 
 Mutation de test permet de valider que les tests sont efficace.

@@ -4,11 +4,11 @@ title: Wip Owasp
 desc: ''
 updated: 1708958994869
 created: 1708520437476
+tags:
+  - programation
+  - security
 isDir: false
 published: false
-tags: 
-   - programmation
-   - security
 ---
 
 

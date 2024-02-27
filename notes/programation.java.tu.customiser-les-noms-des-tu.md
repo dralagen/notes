@@ -4,14 +4,14 @@ title: Customiser Les Noms Des Tu
 desc: ''
 updated: 1708520437476
 created: 1676206800000
-isDir: false
-tags: 
-  - programmation
+tags:
+  - programation
   - java
-  - TU 
+  - TU
+isDir: false
 ---
 
-Pour rendre la rapport de test plus lisible déjà améliorer par une convention de nommage inspiré du clean code [[java.tu.convention-de-nommage]]
+Pour rendre la rapport de test plus lisible déjà améliorer par une convention de nommage inspiré du clean code [[programation.java.tu.convention-de-nommage]]
 
 Possible de customiser en remplacement les underscore par des espaces : 
 ```

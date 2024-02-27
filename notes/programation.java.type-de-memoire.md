@@ -16,7 +16,7 @@ Mémoire principale, contenant les objets créé par l'application.
 Configurable par le -Xms et -Xmx exemple 
 `java -Xms4096M -Xmx6144M ClassName`
 
-Java utilise un Garbage collector pour le nettoyage de la heap : [[java.garbage-collector]]
+Java utilise un Garbage collector pour le nettoyage de la heap : [[programation.java.garbage-collector]]
 
 # Stack memory 
 

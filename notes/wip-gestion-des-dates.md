@@ -4,10 +4,10 @@ title: Wip Gestion Des Dates
 desc: ''
 updated: 1708958994873
 created: 1708520437476
+tags:
+  - programation
 isDir: false
 published: false
-tags:
-    - programmation
 ---
 
 

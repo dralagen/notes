@@ -5,7 +5,7 @@ desc: ''
 updated: 1708962424285
 created: 1675688400000
 tags:
-  - programmation
+  - programation
   - TU
 isDir: false
 ---

@@ -2,11 +2,12 @@
 id: w6bn4f0knb38fr91a0dmsyh
 title: Execute Garbage Collector
 desc: ''
-updated: 1708959761677
+updated: 1709028742146
 created: 1677070800000
-isDir: false
 tags:
-    - #garbage-collector
+  - java
+  - garbage-collector
+isDir: false
 ---
 Vide la mémoire des références d'objet non utilisé :
 

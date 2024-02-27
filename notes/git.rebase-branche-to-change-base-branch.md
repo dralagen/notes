@@ -2,7 +2,7 @@
 id: c6lx3qxvj6b2xxwz49xgo5s
 title: Rebase Branche to Change Base Branch
 desc: ''
-updated: 1708520437478
+updated: 1709028972184
 created: 1678453200000
 tags:
   - git
@@ -15,7 +15,7 @@ Git permet de réécrire l'historique avec un rebase de déplacer une branche ve
 
 Ce changement peut se réaliser en une simple ligne de command :  
 
-```console
+``` Shell
 git rebase --onto $targetBranch $fromBranch $featureBranch
 ```
 

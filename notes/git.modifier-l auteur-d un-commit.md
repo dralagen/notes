@@ -2,7 +2,7 @@
 id: bkxga1oq004fxpq0ac1bp2z
 title: Modifier L Auteur D Un Commit
 desc: ''
-updated: 1708520437478
+updated: 1709028925468
 created: 1674565200000
 isDir: false
 tags:
@@ -11,7 +11,7 @@ tags:
 
 # Remplacer un user un autre utilisateur
 
-```bash
+``` Shell
 git filter-branch --env-filter '
 OLD_EMAIL="your-old-email@example.com"
 CORRECT_NAME="Your Correct Name"

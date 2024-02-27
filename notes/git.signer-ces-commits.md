@@ -2,7 +2,7 @@
 id: 40g9w6l00rhquijjy2kod6y
 title: Signer Ces Commits
 desc: ''
-updated: 1708520437478
+updated: 1709028972179
 created: 1674565200000
 isDir: false
 tags:
@@ -11,11 +11,11 @@ tags:
 ---
 
 prérequis : 
-- Avoir l'ID de la clé gpg [[vérification-des-clés-gpg-existantes]]
-- connaitre la clé public gpg [[récupération-de-la-clé-publique]]
+- Avoir l'ID de la clé gpg [[gpg.vérification-des-clés-gpg-existantes]]
+- connaitre la clé public gpg [[gpg.récupération-de-la-clé-publique]]
 
 Ajout au config git 
-```console
+```Shell
 git config --global user.signingkey ID
 ```
 

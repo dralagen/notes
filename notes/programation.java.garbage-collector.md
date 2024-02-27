@@ -10,7 +10,7 @@ isDir: false
 ---
 
 Le Garbage collector permet de nettoyer une partie de la mémoire de l'application. Au niveau de la heap.
-[[java.type-de-memoire]] 
+[[programation.java.type-de-memoire]] 
 
 # Mémoire Heap
 La heap est divisée en deux zones :
