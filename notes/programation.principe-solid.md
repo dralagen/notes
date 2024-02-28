@@ -5,7 +5,7 @@ desc: ''
 updated: 1709028742148
 created: 1675774800000
 tags:
-  - programation
+  - programmation
 isDir: false
 ---
 

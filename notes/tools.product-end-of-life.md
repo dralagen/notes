@@ -6,7 +6,7 @@ updated: 1709113502459
 created: 1709111521279
 tags:
   - java
-  - programation
+  - programmation
 ---
 
 Retrouver facilement la fin de support des frameworks, langages ou autres produit :

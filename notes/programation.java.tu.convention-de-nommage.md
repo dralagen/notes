@@ -5,7 +5,7 @@ desc: ''
 updated: 1708520437476
 created: 1708520437476
 tags:
-  - programation
+  - programmation
   - java
   - TU
   - clean-code
