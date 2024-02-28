@@ -2,18 +2,18 @@
 id: e76gielfnhdzjsyyj5qaat3
 title: Product End of Life
 desc: ''
-updated: 1709111854364
+updated: 1709113502459
 created: 1709111521279
 tags:
-    - java
-    - programation
+  - java
+  - programation
 ---
 
 Retrouver facilement la fin de support des frameworks, langages ou autres produit :
 
 https://endoflife.date/
 
-lient rapide vers les produits utiles:
+lien rapide vers quelques produits:
 - java: https://endoflife.date/oracle-jdk
 - spring boot: https://endoflife.date/spring-boot
 - mongodb: https://endoflife.date/mongodb
