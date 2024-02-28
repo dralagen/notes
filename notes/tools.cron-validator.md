@@ -2,7 +2,7 @@
 id: kw378st8l48lk9ple0o3jcu
 title: Cron Validator
 desc: ''
-updated: 1709111421549
+updated: 1709112841660
 created: 1709110530738
 ---
 
@@ -21,7 +21,9 @@ field | value | alternative
  day of mounth | 1-31 | 
  mounth | 1-12 | JAN-DEC
  day of week | 0-6 0=SUN | 7=SUN (non standard)
+ year | vide ou 1970-2099 | 
 
+l'année n'est pas toujours renseigné. il est présent sur les jobs quatz 
 
 # quelques tips :
 
@@ -40,3 +42,4 @@ Tip 5: More difficult schedules can be realized by combining multiple cron expre
 
 Sources : 
 - https://crontab.guru/tips.html
+- http://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html
