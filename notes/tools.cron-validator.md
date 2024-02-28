@@ -2,11 +2,11 @@
 id: kw378st8l48lk9ple0o3jcu
 title: Cron Validator
 desc: ''
-updated: 1709112841660
+updated: 1709134776718
 created: 1709110530738
 ---
 
-petit validator en ligne pour se rappeler des crons : https://crontab.guru/
+Petit validator en ligne pour se rappeler des crons : https://crontab.guru/
 
 exemple : 
 ```
@@ -21,11 +21,10 @@ field | value | alternative
  day of mounth | 1-31 | 
  mounth | 1-12 | JAN-DEC
  day of week | 0-6 0=SUN | 7=SUN (non standard)
- year | vide ou 1970-2099 | 
 
-l'année n'est pas toujours renseigné. il est présent sur les jobs quatz 
+Sur certain expression cron du style quartz comprenant les secondes et l'année en dernière colonne.
 
-# quelques tips :
+# Quelques tips :
 
 Tip 1: If the day-of-month or day-of-week part starts with a *, they form an intersection. Otherwise they form a union. * * 3 * 1 runs on the 3rd day of the month and on Monday (union), whereas * * */2 * 1 runs on every second day of the month only if it's also a Monday (intersection). The [[manpage|https://crontab.guru/crontab.5.html]] is incorrect about this detail. More info.
 
