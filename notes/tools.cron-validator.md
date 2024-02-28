@@ -2,7 +2,7 @@
 id: kw378st8l48lk9ple0o3jcu
 title: Cron Validator
 desc: ''
-updated: 1709134776718
+updated: 1709136193267
 created: 1709110530738
 ---
 
@@ -18,8 +18,8 @@ field | value | alternative
 ---------|----------|---------
  minute | 0-59 | 
  heure | 0-23 | 
- day of mounth | 1-31 | 
- mounth | 1-12 | JAN-DEC
+ day of month | 1-31 | 
+ month | 1-12 | JAN-DEC
  day of week | 0-6 0=SUN | 7=SUN (non standard)
 
 Sur certain expression cron du style quartz comprenant les secondes et l'année en dernière colonne.
