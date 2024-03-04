@@ -13,6 +13,6 @@
   },
   "homepage": "https://github.com/dralagen/notes#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.122.0"
+    "@dendronhq/dendron-cli": "^0.124.1"
   }
 }
