@@ -4,6 +4,8 @@ title: Docker privilege escalation
 desc: ''
 updated: 1708968202099
 created: 1708968202099
+tags: 
+    - docker
 ---
 
 # Les dangers du groupe docker
@@ -17,4 +19,4 @@ docker run --rm -it -u root --privileged -v /:/mnt -v /var:/mnt/var -v /home/:/m
 
 ---
 Sources:
-    - https://blog.creekorful.org/2020/08/docker-privilege-escalation/
+- https://blog.creekorful.org/2020/08/docker-privilege-escalation/
