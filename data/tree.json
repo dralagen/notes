@@ -1,0 +1,599 @@
+{
+  "roots": [
+    {
+      "key": "8k4kvyxmr9yfzwj1c3gi0n4",
+      "title": "Adminsys",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "7zrmexgow1et2u02hgzgz7t",
+          "title": "Ajout d'espace disk",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "9v784e1ffa2f72b7wayjd5v",
+          "title": "Fail2ban   Auto Ban",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "lwdjj5vhknopsrlhgnu1ea1",
+          "title": "Firewall with Iptables",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "x8q4m8igz0w6pcv4zawkzpx",
+          "title": "Information Disk Lvm",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "q027beyrfyuk77lwwu078q7",
+          "title": "Ssh Ajout D Une Clé D Authorisation",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "2v9hsib6bshhzijozt3soey",
+          "title": "Ubuntu Mise À Jour Automatique",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "briw6u3lj94w3sbp88e1bds",
+      "title": "Docker",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "5yda6qtlbfbnwpiijnb555n",
+          "title": "Docker Clean Useless Image",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "s2djd64snzp00vdzn9j2zsc",
+          "title": "Docker privilege escalation",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "kjdtuaejfcwi418sjb1boio",
+      "title": "Formation",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "6vn0qk5obxdxtns8nlr0z29",
+          "title": "Formation Aws Developper",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "p7bph8j8z1fz08a7gsle0fy",
+      "title": "Git",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "shrmvymny7ds4bho4az7xwh",
+          "title": "Delete Branch",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "bkxga1oq004fxpq0ac1bp2z",
+          "title": "Modifier L Auteur D Un Commit",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "c6lx3qxvj6b2xxwz49xgo5s",
+          "title": "Rebase Branche to Change Base Branch",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "40g9w6l00rhquijjy2kod6y",
+          "title": "Signer Ces Commits",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "i6av2evofjx08s6va0975vs",
+      "title": "Gpg",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "x4bafmpsd6bcj4a0e2z9s42",
+          "title": "Génération D Un Nouvelle Clé Gpg",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "y6q7md0le0howxg1tgvfzei",
+          "title": "Récupération De La Clé Publique",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "6w38q3wgub03yzdh707d8oa",
+          "title": "Vérification Des Clés Gpg Existantes",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "a6mmymc6mgttfr5c3gwdbnw",
+      "title": "K8s",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "p8mp5f9s96r05s076ksw0hz",
+          "title": "Dashboard Kubernetes",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "zri37q2nxvpiejwn8h45c72",
+          "title": "K3s Install",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "63rf94fwo6w3hgiwu40zkyb",
+          "title": "Kubectl Config Context",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "j2xo8h93ih1qms6sk53fm50",
+          "title": "Kuik Cache D Image",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "9wpd90n07f8jsais0efka1u",
+          "title": "Kustomize Template to Customize Application Configuration",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "t936b3n4kmuxeg7fc5j9le1",
+          "title": "Longhorn Installation",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "fdy1qq99u362rhnpkdr9au5",
+          "title": "Upgrade Argocd",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "fqpo0zybrld9avxzbdh5al3",
+      "title": "Programation",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "fsoqwfhwvc7pzhfl4xqv7hu",
+          "title": "Java",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": [
+            {
+              "key": "w6bn4f0knb38fr91a0dmsyh",
+              "title": "Execute Garbage Collector",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dralagen-notes",
+              "children": []
+            },
+            {
+              "key": "bkb12ngveca6qyetiwtbpxq",
+              "title": "Execute Heapdump",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dralagen-notes",
+              "children": []
+            },
+            {
+              "key": "cgl4ub0a4klbpoh6y1jdtd7",
+              "title": "Garbage Collector Java",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dralagen-notes",
+              "children": []
+            },
+            {
+              "key": "rskiip4ytb0ygce5nq6rgy0",
+              "title": "Tu",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dralagen-notes",
+              "children": [
+                {
+                  "key": "1me0td8wdqkv76ckbwlzfsh",
+                  "title": "Convention De Nommage",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dralagen-notes",
+                  "children": []
+                },
+                {
+                  "key": "y76ttftr8x3z73x2v9ntsop",
+                  "title": "Customiser Les Noms Des Tu",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dralagen-notes",
+                  "children": []
+                },
+                {
+                  "key": "d3zwzuny53kedb57sqhgc5r",
+                  "title": "Organiser Un Tu",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dralagen-notes",
+                  "children": []
+                },
+                {
+                  "key": "dirk13nk086inzvzfumbebl",
+                  "title": "Pitest Mutation De Test",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "dralagen-notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "idm1kh4egumycpbj3b7v73p",
+              "title": "Type De Mémoire en Java",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dralagen-notes",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "4silde14693solh7qhsrbwg",
+          "title": "Methode Tdd",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "s9qhm7g0swutzx7v232fv8d",
+          "title": "Principe Solid",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "b5womle6z9k5vjnqyolqc9x",
+      "title": "Tags",
+      "icon": "numberOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "p5c49wplb9l4v7dcqca0193",
+          "title": "TU",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "wsqfloal9qct4r5adg3k92t",
+          "title": "Adminsys",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "uifvl7ohh7j4eky6c44gxho",
+          "title": "Docker",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "1nxve0o4em419cikr3ms497",
+          "title": "Git",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "fup36yp5uzh8kevcyeks8vk",
+          "title": "Gpg",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "yxs73ehahhuhyf4zptqotwg",
+          "title": "Java",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "1f79dka1zwhueveq59yftow",
+          "title": "Kubernetes",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "qgcnaqui3nlzocy760yxpzv",
+          "title": "Linux",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "t1mvmthae8n08rmbwidv300",
+          "title": "Programmation",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "h0ceo1qgqai2te81xbn0me7",
+          "title": "Security",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "45fg18sk0lx7b2aivpi3yen",
+      "title": "Tools",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dralagen-notes",
+      "children": [
+        {
+          "key": "kw378st8l48lk9ple0o3jcu",
+          "title": "Cron Validator",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "kpuzagozktp0i3tci09be93",
+          "title": "Intellij   Unused Code Detection",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "0dblxvk6yt2rb0lcndaysg4",
+          "title": "Keytool",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        },
+        {
+          "key": "e76gielfnhdzjsyyj5qaat3",
+          "title": "Product End of Life",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dralagen-notes",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "8k4kvyxmr9yfzwj1c3gi0n4": null,
+    "7zrmexgow1et2u02hgzgz7t": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "9v784e1ffa2f72b7wayjd5v": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "lwdjj5vhknopsrlhgnu1ea1": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "x8q4m8igz0w6pcv4zawkzpx": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "q027beyrfyuk77lwwu078q7": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "2v9hsib6bshhzijozt3soey": "8k4kvyxmr9yfzwj1c3gi0n4",
+    "briw6u3lj94w3sbp88e1bds": null,
+    "5yda6qtlbfbnwpiijnb555n": "briw6u3lj94w3sbp88e1bds",
+    "s2djd64snzp00vdzn9j2zsc": "briw6u3lj94w3sbp88e1bds",
+    "kjdtuaejfcwi418sjb1boio": null,
+    "6vn0qk5obxdxtns8nlr0z29": "kjdtuaejfcwi418sjb1boio",
+    "p7bph8j8z1fz08a7gsle0fy": null,
+    "shrmvymny7ds4bho4az7xwh": "p7bph8j8z1fz08a7gsle0fy",
+    "bkxga1oq004fxpq0ac1bp2z": "p7bph8j8z1fz08a7gsle0fy",
+    "c6lx3qxvj6b2xxwz49xgo5s": "p7bph8j8z1fz08a7gsle0fy",
+    "40g9w6l00rhquijjy2kod6y": "p7bph8j8z1fz08a7gsle0fy",
+    "i6av2evofjx08s6va0975vs": null,
+    "x4bafmpsd6bcj4a0e2z9s42": "i6av2evofjx08s6va0975vs",
+    "y6q7md0le0howxg1tgvfzei": "i6av2evofjx08s6va0975vs",
+    "6w38q3wgub03yzdh707d8oa": "i6av2evofjx08s6va0975vs",
+    "a6mmymc6mgttfr5c3gwdbnw": null,
+    "p8mp5f9s96r05s076ksw0hz": "a6mmymc6mgttfr5c3gwdbnw",
+    "zri37q2nxvpiejwn8h45c72": "a6mmymc6mgttfr5c3gwdbnw",
+    "63rf94fwo6w3hgiwu40zkyb": "a6mmymc6mgttfr5c3gwdbnw",
+    "j2xo8h93ih1qms6sk53fm50": "a6mmymc6mgttfr5c3gwdbnw",
+    "9wpd90n07f8jsais0efka1u": "a6mmymc6mgttfr5c3gwdbnw",
+    "t936b3n4kmuxeg7fc5j9le1": "a6mmymc6mgttfr5c3gwdbnw",
+    "fdy1qq99u362rhnpkdr9au5": "a6mmymc6mgttfr5c3gwdbnw",
+    "fqpo0zybrld9avxzbdh5al3": null,
+    "fsoqwfhwvc7pzhfl4xqv7hu": "fqpo0zybrld9avxzbdh5al3",
+    "w6bn4f0knb38fr91a0dmsyh": "fsoqwfhwvc7pzhfl4xqv7hu",
+    "bkb12ngveca6qyetiwtbpxq": "fsoqwfhwvc7pzhfl4xqv7hu",
+    "cgl4ub0a4klbpoh6y1jdtd7": "fsoqwfhwvc7pzhfl4xqv7hu",
+    "rskiip4ytb0ygce5nq6rgy0": "fsoqwfhwvc7pzhfl4xqv7hu",
+    "1me0td8wdqkv76ckbwlzfsh": "rskiip4ytb0ygce5nq6rgy0",
+    "y76ttftr8x3z73x2v9ntsop": "rskiip4ytb0ygce5nq6rgy0",
+    "d3zwzuny53kedb57sqhgc5r": "rskiip4ytb0ygce5nq6rgy0",
+    "dirk13nk086inzvzfumbebl": "rskiip4ytb0ygce5nq6rgy0",
+    "idm1kh4egumycpbj3b7v73p": "fsoqwfhwvc7pzhfl4xqv7hu",
+    "4silde14693solh7qhsrbwg": "fqpo0zybrld9avxzbdh5al3",
+    "s9qhm7g0swutzx7v232fv8d": "fqpo0zybrld9avxzbdh5al3",
+    "b5womle6z9k5vjnqyolqc9x": null,
+    "p5c49wplb9l4v7dcqca0193": "b5womle6z9k5vjnqyolqc9x",
+    "wsqfloal9qct4r5adg3k92t": "b5womle6z9k5vjnqyolqc9x",
+    "uifvl7ohh7j4eky6c44gxho": "b5womle6z9k5vjnqyolqc9x",
+    "1nxve0o4em419cikr3ms497": "b5womle6z9k5vjnqyolqc9x",
+    "fup36yp5uzh8kevcyeks8vk": "b5womle6z9k5vjnqyolqc9x",
+    "yxs73ehahhuhyf4zptqotwg": "b5womle6z9k5vjnqyolqc9x",
+    "1f79dka1zwhueveq59yftow": "b5womle6z9k5vjnqyolqc9x",
+    "qgcnaqui3nlzocy760yxpzv": "b5womle6z9k5vjnqyolqc9x",
+    "t1mvmthae8n08rmbwidv300": "b5womle6z9k5vjnqyolqc9x",
+    "h0ceo1qgqai2te81xbn0me7": "b5womle6z9k5vjnqyolqc9x",
+    "45fg18sk0lx7b2aivpi3yen": null,
+    "kw378st8l48lk9ple0o3jcu": "45fg18sk0lx7b2aivpi3yen",
+    "kpuzagozktp0i3tci09be93": "45fg18sk0lx7b2aivpi3yen",
+    "0dblxvk6yt2rb0lcndaysg4": "45fg18sk0lx7b2aivpi3yen",
+    "e76gielfnhdzjsyyj5qaat3": "45fg18sk0lx7b2aivpi3yen"
+  },
+  "notesLabelById": {
+    "8k4kvyxmr9yfzwj1c3gi0n4": "Adminsys",
+    "7zrmexgow1et2u02hgzgz7t": "Ajout d'espace disk",
+    "9v784e1ffa2f72b7wayjd5v": "Fail2ban   Auto Ban",
+    "lwdjj5vhknopsrlhgnu1ea1": "Firewall with Iptables",
+    "x8q4m8igz0w6pcv4zawkzpx": "Information Disk Lvm",
+    "q027beyrfyuk77lwwu078q7": "Ssh Ajout D Une Clé D Authorisation",
+    "2v9hsib6bshhzijozt3soey": "Ubuntu Mise À Jour Automatique",
+    "briw6u3lj94w3sbp88e1bds": "Docker",
+    "5yda6qtlbfbnwpiijnb555n": "Docker Clean Useless Image",
+    "s2djd64snzp00vdzn9j2zsc": "Docker privilege escalation",
+    "kjdtuaejfcwi418sjb1boio": "Formation",
+    "6vn0qk5obxdxtns8nlr0z29": "Formation Aws Developper",
+    "p7bph8j8z1fz08a7gsle0fy": "Git",
+    "shrmvymny7ds4bho4az7xwh": "Delete Branch",
+    "bkxga1oq004fxpq0ac1bp2z": "Modifier L Auteur D Un Commit",
+    "c6lx3qxvj6b2xxwz49xgo5s": "Rebase Branche to Change Base Branch",
+    "40g9w6l00rhquijjy2kod6y": "Signer Ces Commits",
+    "i6av2evofjx08s6va0975vs": "Gpg",
+    "x4bafmpsd6bcj4a0e2z9s42": "Génération D Un Nouvelle Clé Gpg",
+    "y6q7md0le0howxg1tgvfzei": "Récupération De La Clé Publique",
+    "6w38q3wgub03yzdh707d8oa": "Vérification Des Clés Gpg Existantes",
+    "a6mmymc6mgttfr5c3gwdbnw": "K8s",
+    "p8mp5f9s96r05s076ksw0hz": "Dashboard Kubernetes",
+    "zri37q2nxvpiejwn8h45c72": "K3s Install",
+    "63rf94fwo6w3hgiwu40zkyb": "Kubectl Config Context",
+    "j2xo8h93ih1qms6sk53fm50": "Kuik Cache D Image",
+    "9wpd90n07f8jsais0efka1u": "Kustomize Template to Customize Application Configuration",
+    "t936b3n4kmuxeg7fc5j9le1": "Longhorn Installation",
+    "fdy1qq99u362rhnpkdr9au5": "Upgrade Argocd",
+    "fqpo0zybrld9avxzbdh5al3": "Programation",
+    "fsoqwfhwvc7pzhfl4xqv7hu": "Java",
+    "w6bn4f0knb38fr91a0dmsyh": "Execute Garbage Collector",
+    "bkb12ngveca6qyetiwtbpxq": "Execute Heapdump",
+    "cgl4ub0a4klbpoh6y1jdtd7": "Garbage Collector Java",
+    "rskiip4ytb0ygce5nq6rgy0": "Tu",
+    "1me0td8wdqkv76ckbwlzfsh": "Convention De Nommage",
+    "y76ttftr8x3z73x2v9ntsop": "Customiser Les Noms Des Tu",
+    "d3zwzuny53kedb57sqhgc5r": "Organiser Un Tu",
+    "dirk13nk086inzvzfumbebl": "Pitest Mutation De Test",
+    "idm1kh4egumycpbj3b7v73p": "Type De Mémoire en Java",
+    "4silde14693solh7qhsrbwg": "Methode Tdd",
+    "s9qhm7g0swutzx7v232fv8d": "Principe Solid",
+    "b5womle6z9k5vjnqyolqc9x": "Tags",
+    "p5c49wplb9l4v7dcqca0193": "TU",
+    "wsqfloal9qct4r5adg3k92t": "Adminsys",
+    "uifvl7ohh7j4eky6c44gxho": "Docker",
+    "1nxve0o4em419cikr3ms497": "Git",
+    "fup36yp5uzh8kevcyeks8vk": "Gpg",
+    "yxs73ehahhuhyf4zptqotwg": "Java",
+    "1f79dka1zwhueveq59yftow": "Kubernetes",
+    "qgcnaqui3nlzocy760yxpzv": "Linux",
+    "t1mvmthae8n08rmbwidv300": "Programmation",
+    "h0ceo1qgqai2te81xbn0me7": "Security",
+    "45fg18sk0lx7b2aivpi3yen": "Tools",
+    "kw378st8l48lk9ple0o3jcu": "Cron Validator",
+    "kpuzagozktp0i3tci09be93": "Intellij   Unused Code Detection",
+    "0dblxvk6yt2rb0lcndaysg4": "Keytool",
+    "e76gielfnhdzjsyyj5qaat3": "Product End of Life"
+  }
+}

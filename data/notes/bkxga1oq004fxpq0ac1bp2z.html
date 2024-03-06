@@ -1,0 +1,38 @@
+<h1 id="modifier-l-auteur-d-un-commit">Modifier L Auteur D Un Commit<a aria-hidden="true" class="anchor-heading icon-link" href="#modifier-l-auteur-d-un-commit"></a></h1>
+<h1 id="remplacer-un-user-un-autre-utilisateur">Remplacer un user un autre utilisateur<a aria-hidden="true" class="anchor-heading icon-link" href="#remplacer-un-user-un-autre-utilisateur"></a></h1>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> filter-branch --env-filter <span class="token string">'
+OLD_EMAIL="your-old-email@example.com"
+CORRECT_NAME="Your Correct Name"
+CORRECT_EMAIL="your-correct-email@example.com"
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+'</span> --tag-name-filter <span class="token function">cat</span> -- --branches --tags
+
+<span class="token function">git</span> filter-repo --mailmap git-mailmap
+</code></pre>
+<h1 id="reset-les-informations-pour-un-commit-head">Reset les informations pour un commit HEAD<a aria-hidden="true" class="anchor-heading icon-link" href="#reset-les-informations-pour-un-commit-head"></a></h1>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> commit --amend --no-edit --reset-author
+</code></pre>
+<h1 id="rebase-lhistorique">Rebase l'historique<a aria-hidden="true" class="anchor-heading icon-link" href="#rebase-lhistorique"></a></h1>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> rebase -r <span class="token operator">&#x3C;</span>some commit before all of your bad commits<span class="token operator">></span> <span class="token punctuation">\</span>
+    --exec <span class="token string">'git commit --amend --no-edit --reset-author'</span>
+</code></pre>
+<p><code>-r root</code> pour l'ensemble de l'historique </p>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://stackoverflow.com/a/1320317">Stackoverflow - rebase with me</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #9a3001;" href="/notes/1nxve0o4em419cikr3ms497">git</a></li>
+</ol>

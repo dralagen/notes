@@ -1,0 +1,19 @@
+<h1 id="docker-clean-useless-image">Docker Clean Useless Image<a aria-hidden="true" class="anchor-heading icon-link" href="#docker-clean-useless-image"></a></h1>
+<h1 id="remove-all-images-without-tags-">Remove all images without tags :<a aria-hidden="true" class="anchor-heading icon-link" href="#remove-all-images-without-tags-"></a></h1>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">docker</span> rmi <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> images -f <span class="token string">"dangling=true"</span> -q<span class="token variable">)</span></span>
+</code></pre>
+<h1 id="cleanup-images-unsused-">cleanup images unsused :<a aria-hidden="true" class="anchor-heading icon-link" href="#cleanup-images-unsused-"></a></h1>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">docker</span> image prune -a
+</code></pre>
+<p>Possible d'ajouter un filtre exemple créé il y a plus de 24h :
+<code>--filter "until=24h"</code></p>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://docs.docker.com/config/pruning/">https://docs.docker.com/config/pruning/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #7ef4cc;" href="/notes/uifvl7ohh7j4eky6c44gxho">docker</a></li>
+</ol>

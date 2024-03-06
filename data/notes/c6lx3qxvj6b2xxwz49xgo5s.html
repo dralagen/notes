@@ -1,0 +1,21 @@
+<h1 id="rebase-branche-to-change-base-branch">Rebase Branche to Change Base Branch<a aria-hidden="true" class="anchor-heading icon-link" href="#rebase-branche-to-change-base-branch"></a></h1>
+<p>2023-03-10</p>
+<p>Git permet de réécrire l'historique avec un rebase de déplacer une branche vers une autre. Ce cas d'usage peut-être utile pour déplacer une feature d'une branche de support vers une autre version a cause d'un changement de périmètre.</p>
+<p>Ce changement peut se réaliser en une simple ligne de command :  </p>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> rebase --onto <span class="token variable">$targetBranch</span> <span class="token variable">$fromBranch</span> <span class="token variable">$featureBranch</span>
+</code></pre>
+<ul>
+<li><code>$targetBranch</code> : la branche de destination sur lequel les commits seront rejoués</li>
+<li><code>$fromBranch</code> : la branche de base des commits à rejouer, les commits de cette branche seront exclus</li>
+<li><code>$featureBranch</code> : la branche contenant les commits qui vont être rejoués</li>
+</ul>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing">https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #9a3001;" href="/notes/1nxve0o4em419cikr3ms497">git</a></li>
+</ol>

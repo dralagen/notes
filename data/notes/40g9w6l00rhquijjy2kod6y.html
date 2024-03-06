@@ -1,0 +1,25 @@
+<h1 id="signer-ces-commits">Signer Ces Commits<a aria-hidden="true" class="anchor-heading icon-link" href="#signer-ces-commits"></a></h1>
+<p>prérequis : </p>
+<ul>
+<li>Avoir l'ID de la clé gpg <a href="/notes/6w38q3wgub03yzdh707d8oa">Vérification Des Clés Gpg Existantes</a></li>
+<li>connaitre la clé public gpg <a href="/notes/y6q7md0le0howxg1tgvfzei">Récupération De La Clé Publique</a></li>
+</ul>
+<p>Ajout au config git </p>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> config --global user.signingkey ID
+</code></pre>
+<p>Force la signature des commits</p>
+<pre class="language-shell"><code class="language-Shell"><span class="token function">git</span> config --global commit.gpgsign <span class="token boolean">true</span>
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://git-scm.com/book/fr/v2/Utilitaires-Git-Signer-votre-travail">https://git-scm.com/book/fr/v2/Utilitaires-Git-Signer-votre-travail</a></li>
+<li><a href="https://docs.github.com/fr/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key">https://docs.github.com/fr/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key</a></li>
+<li><a href="https://docs.github.com/fr/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account">https://docs.github.com/fr/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #9a3001;" href="/notes/1nxve0o4em419cikr3ms497">git</a></li>
+<li><a class="color-tag" style="--tag-color: #b9cc81;" href="/notes/fup36yp5uzh8kevcyeks8vk">gpg</a></li>
+</ol>

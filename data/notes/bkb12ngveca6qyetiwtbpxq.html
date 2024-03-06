@@ -1,0 +1,11 @@
+<h1 id="execute-heapdump">Execute Heapdump<a aria-hidden="true" class="anchor-heading icon-link" href="#execute-heapdump"></a></h1>
+<p>Prérequis : exécuter un garbage collector pour vider la mémoire afin de mieux détecter un memory leak <a href="/notes/w6bn4f0knb38fr91a0dmsyh">Execute Garbage Collector</a></p>
+<p>Into docker :</p>
+<p><code>jmap -dump:format=b,file=&#x3C;filename></code></p>
+<p>Or</p>
+<p><code>jcmd &#x3C;PID> GC.heap_dump -all dump</code></p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">java</a></li>
+</ol>

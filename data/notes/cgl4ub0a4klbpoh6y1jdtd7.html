@@ -1,0 +1,41 @@
+<h1 id="garbage-collector-java">Garbage Collector Java<a aria-hidden="true" class="anchor-heading icon-link" href="#garbage-collector-java"></a></h1>
+<p>Le Garbage collector permet de nettoyer une partie de la mémoire de l'application. Au niveau de la heap.
+<a href="/notes/idm1kh4egumycpbj3b7v73p">Type De Mémoire en Java</a> </p>
+<h1 id="mémoire-heap">Mémoire Heap<a aria-hidden="true" class="anchor-heading icon-link" href="#mémoire-heap"></a></h1>
+<p>La heap est divisée en deux zones :
+<strong>Young generation</strong> : zone jeune est l'endroit où les objets nouvellement créés sont stockés. Encore devisé en deux "Eden Space" et "survivor spaces". Les objets qui sont conservées dans la young generation est promu dans la old generation.
+<strong>Old generation</strong> : zone de stockage long, où les objets ont survécu à plusieurs cycle de collection dans la young generation.
+La zone est aussi subdivisé en deux espaces, l'espace permanent "permanent space" et l'espace de la pile "stack memory "</p>
+<h1 id="type-de-collector">type de collector<a aria-hidden="true" class="anchor-heading icon-link" href="#type-de-collector"></a></h1>
+<ul>
+<li><strong>Serial GC</strong>, GC par défaut pour les applications a faible consommation de mémoire, monothread. La collecte est relativement simple. <code>-XX:+UseSerialGC</code></li>
+<li><strong>Parallel GC</strong>, pour les applications a forte consommation de mémoire, multithreads. La collecte exécuter en parallèle sur plusieurs thread pour améliorer les performances. <code>-XX:+UseParallelGC</code></li>
+<li><strong>Concurrent-Mark sweep GC</strong>, pour les applications avec des temps de réponse rapide, ou la latence est un facteur critique. La collecte fonctionne en arrière plan pour minimiser la durée de la pause de collection. <code>-XX:+UseConcMarkSweepGC</code></li>
+<li><strong>Garbage-First GC (G1)</strong>, pour les applications a forte consommation mémoire et contrainte de temps de réponse strictes. Fonctionne en parallèle sur plusieurs thread pour les performances utilisé aussi un tri de tas pour optimiser les performances. <code>-XX:+UseG1GC</code></li>
+</ul>
+<h1 id="fonctionnement-du-garbage-collector">Fonctionnement du Garbage collector<a aria-hidden="true" class="anchor-heading icon-link" href="#fonctionnement-du-garbage-collector"></a></h1>
+<p>Le GC s'exécute en arrière plan, à la recherche des objets plus référencés par le programme et les marque pour la suppression.
+Le traitement de nettoyage est déclenché lorsque la JVM détecte que l'espace disponible sur le tas est devenu insuffisant pour allouer de nouveau objet.</p>
+<p>Dans la zone jeune, la stratégie de GC se base sur le comptage de référence dans l'application.
+Une fois qu'un objet n'est plus référencé, le GC les marques comme objet à supprimer.
+Une fois un objet a survécu à plusieurs cycles, l'objet est promu à la zone ancienne.</p>
+<p>Dans la zone ancienne, le GC utilise une stratégie de marque et de balayage.
+Cette stratégie marque tous les objets encore référencés, puis balayage la mémoire pour supprimer les objets non marqué.
+Cette stratégie peu engendrer une pause dans la JVM ce qui peut affecter les performances.</p>
+<p>Les performances du GC depends de beaucoup de facteur comme la taille de l'application, le nombre d'allocations, le nombre de thread.</p>
+<p>Des tests de performances sont a effectué pour attribuer la meilleure stratégie de GC.</p>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://kotlin-java.fr/garbage-collector-jvm/">https://kotlin-java.fr/garbage-collector-jvm/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">java</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/idm1kh4egumycpbj3b7v73p">Type De Mémoire en Java</a></li>
+</ul>

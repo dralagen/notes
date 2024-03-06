@@ -1,0 +1,48 @@
+<h1 id="pitest-mutation-de-test">Pitest Mutation De Test<a aria-hidden="true" class="anchor-heading icon-link" href="#pitest-mutation-de-test"></a></h1>
+<p>Mutation de test permet de valider que les tests sont efficace.
+Mais l'execution est plus long</p>
+<p>Mise en place de mutation de test avec pitest sur maven</p>
+<pre class="language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>plugin</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>groupId</span><span class="token punctuation">></span></span>org.pitest<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>groupId</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>artifactId</span><span class="token punctuation">></span></span>pitest-maven<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>artifactId</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>version</span><span class="token punctuation">></span></span>1.7.1<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>version</span><span class="token punctuation">></span></span>
+  <span class="token comment">&#x3C;!-- optional, this example attached the goal into mvn test phase
+  instead of launching mvn clean test org.pitest:pitest-maven:mutationCoverage
+  reports are found under target/pi-reports
+  --></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>executions</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>execution</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>id</span><span class="token punctuation">></span></span>pit-report<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>id</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>phase</span><span class="token punctuation">></span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>phase</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>goals</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>goal</span><span class="token punctuation">></span></span>mutationCoverage<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>goal</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>goals</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>execution</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>executions</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>configuration</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>timestampedReports</span><span class="token punctuation">></span></span>false<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>timestampedReports</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>configuration</span><span class="token punctuation">></span></span>
+  <span class="token comment">&#x3C;!-- https://github.com/hcoles/pitest/issues/284 --></span>
+  <span class="token comment">&#x3C;!-- Need this to support JUnit 5 --></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>dependencies</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>dependency</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>groupId</span><span class="token punctuation">></span></span>org.pitest<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>groupId</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>artifactId</span><span class="token punctuation">></span></span>pitest-junit5-plugin<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>artifactId</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>version</span><span class="token punctuation">></span></span>0.15<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>version</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>dependency</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>dependencies</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>plugin</span><span class="token punctuation">></span></span>
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://pitest.org/quickstart/maven/">https://pitest.org/quickstart/maven/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #7b002c;" href="/notes/t1mvmthae8n08rmbwidv300">programmation</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">test (Private)</a></li>
+<li><a class="color-tag" style="--tag-color: #b7fffa;" href="/notes/p5c49wplb9l4v7dcqca0193">TU</a></li>
+<li><a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">java</a></li>
+</ol>

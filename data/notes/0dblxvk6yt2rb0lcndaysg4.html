@@ -1,0 +1,7 @@
+<h1 id="keytool">Keytool<a aria-hidden="true" class="anchor-heading icon-link" href="#keytool"></a></h1>
+<p>Voir le certificat d'un site</p>
+<pre class="language-shell"><code class="language-Shell">openssl s_client -showcerts -connect google.fr:443
+</code></pre>
+<p>Voir la liste des clé dans un truststore</p>
+<pre class="language-shell"><code class="language-shell">keytool -list -v -keystore truststore.jks
+</code></pre>

@@ -1,0 +1,19 @@
+<h1 id="upgrade-argocd">Upgrade Argocd<a aria-hidden="true" class="anchor-heading icon-link" href="#upgrade-argocd"></a></h1>
+<p><code>&#x3C;version></code> correspond au tag argocd comme <code>v2.6.1</code></p>
+<h1 id="non-ha">Non-HA<a aria-hidden="true" class="anchor-heading icon-link" href="#non-ha"></a></h1>
+<pre class="language-shell"><code class="language-Shell">kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/<span class="token operator">&#x3C;</span>version<span class="token operator">></span>/manifests/install.yaml
+</code></pre>
+<h1 id="ha">HA<a aria-hidden="true" class="anchor-heading icon-link" href="#ha"></a></h1>
+<pre class="language-shell"><code class="language-Shell">kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/<span class="token operator">&#x3C;</span>version<span class="token operator">></span>/manifests/ha/install.yaml
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/overview/">https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/overview/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">k8s (Private)</a></li>
+<li><a class="color-tag" style="--tag-color: #adf802;" href="/notes/1f79dka1zwhueveq59yftow">kubernetes</a></li>
+</ol>

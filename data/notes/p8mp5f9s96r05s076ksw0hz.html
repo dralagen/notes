@@ -1,0 +1,47 @@
+<h1 id="dashboard-kubernetes">Dashboard Kubernetes<a aria-hidden="true" class="anchor-heading icon-link" href="#dashboard-kubernetes"></a></h1>
+<h1 id="configuration-du-service-account">Configuration du service Account<a aria-hidden="true" class="anchor-heading icon-link" href="#configuration-du-service-account"></a></h1>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> admin<span class="token punctuation">-</span>user
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> kubernetes<span class="token punctuation">-</span>dashboard
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRoleBinding
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> admin<span class="token punctuation">-</span>user
+<span class="token key atrule">roleRef</span><span class="token punctuation">:</span>
+  <span class="token key atrule">apiGroup</span><span class="token punctuation">:</span> rbac.authorization.k8s.io
+  <span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> cluster<span class="token punctuation">-</span>admin
+<span class="token key atrule">subjects</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> admin<span class="token punctuation">-</span>user
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> kubernetes<span class="token punctuation">-</span>dashboard
+
+</code></pre>
+<h1 id="create-token">create token<a aria-hidden="true" class="anchor-heading icon-link" href="#create-token"></a></h1>
+<pre><code>kubectl -n kubernetes-dashboard create token admin-user
+</code></pre>
+<h1 id="clear-security">clear security<a aria-hidden="true" class="anchor-heading icon-link" href="#clear-security"></a></h1>
+<pre><code>kubectl -n kubernetes-dashboard delete serviceaccount admin-user
+kubectl -n kubernetes-dashboard delete clusterrolebinding admin-user 
+</code></pre>
+<h1 id="web-access">Web Access<a aria-hidden="true" class="anchor-heading icon-link" href="#web-access"></a></h1>
+<h2 id="command-line-proxy">Command line proxy<a aria-hidden="true" class="anchor-heading icon-link" href="#command-line-proxy"></a></h2>
+<p>You can enable access to the Dashboard using the <code>kubectl</code> command-line tool, by running the following command:</p>
+<pre><code>kubectl proxy
+</code></pre>
+<p>Kubectl will make Dashboard available at <a href="http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/">http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/</a>.</p>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/">https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">k8s (Private)</a></li>
+<li><a class="color-tag" style="--tag-color: #adf802;" href="/notes/1f79dka1zwhueveq59yftow">kubernetes</a></li>
+</ol>

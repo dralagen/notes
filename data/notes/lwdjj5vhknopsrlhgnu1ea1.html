@@ -1,0 +1,32 @@
+<h1 id="firewall-with-iptables">Firewall with Iptables<a aria-hidden="true" class="anchor-heading icon-link" href="#firewall-with-iptables"></a></h1>
+<h1 id="autoriser-le-trafic-local">autoriser le trafic local<a aria-hidden="true" class="anchor-heading icon-link" href="#autoriser-le-trafic-local"></a></h1>
+<pre class="language-bash"><code class="language-bash">iptables -A INPUT -i lo -j ACCEPT
+</code></pre>
+<h1 id="autoriser-le-trafic-sur-un-port-spécifique">autoriser le trafic sur un port spécifique<a aria-hidden="true" class="anchor-heading icon-link" href="#autoriser-le-trafic-sur-un-port-spécifique"></a></h1>
+<pre class="language-bash"><code class="language-bash">iptables -A INPUT -p tcp --dport <span class="token number">80</span> -j ACCEPT
+</code></pre>
+<h1 id="supprimer-le-trafic-indésirable">supprimer le trafic indésirable<a aria-hidden="true" class="anchor-heading icon-link" href="#supprimer-le-trafic-indésirable"></a></h1>
+<p>Ajout d'une règle strict a inserer en dernier</p>
+<pre class="language-bash"><code class="language-bash">iptables -A INPUT -j DROP
+</code></pre>
+<p>Changement de policy pour refuser le trafic si aucune règle fonctionne </p>
+<pre><code>iptables --policy INPUT DROP
+</code></pre>
+<h1 id="supprimer-une-règle">supprimer une règle<a aria-hidden="true" class="anchor-heading icon-link" href="#supprimer-une-règle"></a></h1>
+<pre class="language-bash"><code class="language-bash">iptables -D INPUT <span class="token operator">&#x3C;</span>Number<span class="token operator">></span>
+</code></pre>
+<h1 id="enregistrer-vos-modifications">enregistrer vos modifications<a aria-hidden="true" class="anchor-heading icon-link" href="#enregistrer-vos-modifications"></a></h1>
+<p>Sauvegarder les règles pour les conserver lors du reboot</p>
+<pre class="language-bash"><code class="language-bash">iptables-save -c
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://help.ovhcloud.com/csm/fr-dedicated-servers-firewall-iptables?id=kb_article_view&#x26;sysparm_article=KB0043442">https://help.ovhcloud.com/csm/fr-dedicated-servers-firewall-iptables?id=kb_article_view&#x26;sysparm_article=KB0043442</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #f2ab15;" href="/notes/wsqfloal9qct4r5adg3k92t">adminsys</a></li>
+<li><a class="color-tag" style="--tag-color: #63a950;" href="/notes/h0ceo1qgqai2te81xbn0me7">security</a></li>
+</ol>

@@ -1,0 +1,54 @@
+<h1 id="cron-validator">Cron Validator<a aria-hidden="true" class="anchor-heading icon-link" href="#cron-validator"></a></h1>
+<p>Petit validator en ligne pour se rappeler des crons : <a href="https://crontab.guru/">https://crontab.guru/</a></p>
+<p>exemple : </p>
+<pre><code>5 4 * * *
+</code></pre>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>field</th><th>value</th><th>alternative</th></tr></thead><tbody><tr><td>minute</td><td>0-59</td><td></td></tr><tr><td>heure</td><td>0-23</td><td></td></tr><tr><td>day of month</td><td>1-31</td><td></td></tr><tr><td>month</td><td>1-12</td><td>JAN-DEC</td></tr><tr><td>day of week</td><td>0-6 0=SUN</td><td>7=SUN (non standard)</td></tr></tbody></table></div>
+<p>Sur certain expression cron du style quartz comprenant les secondes et l'année en dernière colonne.</p>
+<h1 id="quelques-tips-">Quelques tips :<a aria-hidden="true" class="anchor-heading icon-link" href="#quelques-tips-"></a></h1>
+<p>Tip 1: If the day-of-month or day-of-week part starts with a <em>, they form an intersection. Otherwise they form a union. </em> <em> 3 </em> 1 runs on the 3rd day of the month and on Monday (union), whereas * * <em>/2 </em> 1 runs on every second day of the month only if it's also a Monday (intersection). The <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">manpage (Private)</a> is incorrect about this detail. More info.</p>
+<p>Tip 2: Run your servers including the cron process in UTC timezone. <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Why? (Private)</a></p>
+<p>Tip 3: Some cron implementations allow to specify years and seconds. However, cron is not the best tool if you need to operate at those levels, which is also why crontab.guru doesn't support them.</p>
+<p>Tip 4: Don't use <code>@reboot</code> because it has too many <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">issues (Private)</a>.</p>
+<p>Tip 5: More difficult schedules can be realized by combining multiple cron expressions. For example, if you need to run X every 90 minutes, create one crontab entry that runs X every 3 hours on the hour (0 <em>/3 </em> * <em>), and a second crontab entry that runs X every 3 hours with an offset (30 1/3 </em> * *).</p>
+<hr>
+<p>Sources : </p>
+<ul>
+<li><a href="https://crontab.guru/tips.html">https://crontab.guru/tips.html</a></li>
+<li><a href="http://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html">http://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html</a></li>
+</ul>

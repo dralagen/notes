@@ -1,0 +1,32 @@
+<h1 id="k3s-install">K3s Install<a aria-hidden="true" class="anchor-heading icon-link" href="#k3s-install"></a></h1>
+<h2 id="server">SERVER<a aria-hidden="true" class="anchor-heading icon-link" href="#server"></a></h2>
+<h1 id="disable-traefik">Disable traefik<a aria-hidden="true" class="anchor-heading icon-link" href="#disable-traefik"></a></h1>
+<pre><code>export INSTALL_K3S_EXEC="server --disable=traefik --cluster-init"
+</code></pre>
+<h1 id="create-k3s-cluster">Create k3s cluster<a aria-hidden="true" class="anchor-heading icon-link" href="#create-k3s-cluster"></a></h1>
+<pre><code>curl -sfL https://get.k3s.io | K3S_TOKEN="SECRET" sh -s - server --cluster-init
+</code></pre>
+<p>Ajout d'un noeud serveur</p>
+<pre><code>curl -sfL https://get.k3s.io | K3S_TOKEN=SECRET sh -s - server \
+    --server https://&#x3C;ip or hostname of server1>:6443 
+</code></pre>
+<h2 id="agent">AGENT<a aria-hidden="true" class="anchor-heading icon-link" href="#agent"></a></h2>
+<h1 id="add-server-as-a-worker-node">Add server as a worker node<a aria-hidden="true" class="anchor-heading icon-link" href="#add-server-as-a-worker-node"></a></h1>
+<p>Récupération du token  sur le serveur maitre:</p>
+<pre><code>sudo cat /var/lib/rancher/k3s/server/node-token
+</code></pre>
+<p>Sur le future node :</p>
+<pre><code>curl -sfL https://get.k3s.io | K3S_TOKEN="SECRET" sh -s - agent --server https://IP_SERVER_MASTER:6443
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://docs.k3s.io/quick-start">https://docs.k3s.io/quick-start</a></li>
+<li><a href="https://docs.k3s.io/datastore/ha-embedded">https://docs.k3s.io/datastore/ha-embedded</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">k8s (Private)</a></li>
+<li><a class="color-tag" style="--tag-color: #adf802;" href="/notes/1f79dka1zwhueveq59yftow">kubernetes</a></li>
+</ol>

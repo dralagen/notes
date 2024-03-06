@@ -1,0 +1,37 @@
+<h1 id="type-de-mémoire-en-java">Type De Mémoire en Java<a aria-hidden="true" class="anchor-heading icon-link" href="#type-de-mémoire-en-java"></a></h1>
+<h1 id="heap-memory">heap memory<a aria-hidden="true" class="anchor-heading icon-link" href="#heap-memory"></a></h1>
+<p>Mémoire principale, contenant les objets créé par l'application.</p>
+<p>Configurable par le -Xms et -Xmx exemple
+<code>java -Xms4096M -Xmx6144M ClassName</code></p>
+<p>Java utilise un Garbage collector pour le nettoyage de la heap : <a href="/notes/cgl4ub0a4klbpoh6y1jdtd7">Garbage Collector Java</a></p>
+<h1 id="stack-memory">Stack memory<a aria-hidden="true" class="anchor-heading icon-link" href="#stack-memory"></a></h1>
+<p>Stock les variables locale et les informations de méthode mais aussi les thead exécution </p>
+<p>Il n'est pas géré par les Garbage collector mais par la jvm directement.</p>
+<h1 id="native-memory">Native Memory<a aria-hidden="true" class="anchor-heading icon-link" href="#native-memory"></a></h1>
+<p>L'allocation de mémoire a l'extérieur de la heap java et utilisé par la jvm.
+Aussi appelé off-heap memory</p>
+<p>Utilisé pour réaliser le serialisation en lecture et écriture.
+Les performances dépend du buffer, du process de serialisation et de l'espace disque </p>
+<p>La JVM stock les stack de thread, les données Internet and memory mapped files.</p>
+<h1 id="direct-memory">Direct Memory<a aria-hidden="true" class="anchor-heading icon-link" href="#direct-memory"></a></h1>
+<p>Allocation en dehors de la java heap.
+Ça représente la mémoire utilisé sur l'OS par le process de la JVM.</p>
+<p>Java NIO utilisé cette mémoire pour écrire les données sur le réseau ou le disques</p>
+<p>On peut limiter le direct buffer memory size en utilisant ce paramètre :
+<code>-XX:MaxDirectMemorySize=1024M</code></p>
+<hr>
+<p>Tags: <a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">#java</a></p>
+<p>Source:</p>
+<ul>
+<li>Memory Types in JVM <a href="https://www.baeldung.com/java-jvm-memory-types">https://www.baeldung.com/java-jvm-memory-types</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">java</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/cgl4ub0a4klbpoh6y1jdtd7">Garbage Collector Java</a></li>
+</ul>

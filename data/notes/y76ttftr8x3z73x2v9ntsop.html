@@ -1,0 +1,32 @@
+<h1 id="customiser-les-noms-des-tu">Customiser Les Noms Des Tu<a aria-hidden="true" class="anchor-heading icon-link" href="#customiser-les-noms-des-tu"></a></h1>
+<p>Pour rendre la rapport de test plus lisible déjà améliorer par une convention de nommage inspiré du clean code <a href="/notes/1me0td8wdqkv76ckbwlzfsh">Convention De Nommage</a></p>
+<p>Possible de customiser en remplacement les underscore par des espaces : </p>
+<pre><code>@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
+class ReplaceUnderscoresGeneratorUnitTest {
+
+    @Nested
+    class when_doing_something {
+
+        @Test
+        void then_something_should_happen() {
+        }
+
+        @Test
+        @DisplayName("@DisplayName takes precedence over generation")
+        void override_generator() {
+        }
+    }
+}
+</code></pre>
+<hr>
+<p>Source:</p>
+<ul>
+<li><a href="https://www.baeldung.com/junit-custom-display-name-generator">https://www.baeldung.com/junit-custom-display-name-generator</a></li>
+</ul>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a class="color-tag" style="--tag-color: #7b002c;" href="/notes/t1mvmthae8n08rmbwidv300">programmation</a></li>
+<li><a class="color-tag" style="--tag-color: #005249;" href="/notes/yxs73ehahhuhyf4zptqotwg">java</a></li>
+<li><a class="color-tag" style="--tag-color: #b7fffa;" href="/notes/p5c49wplb9l4v7dcqca0193">TU</a></li>
+</ol>
